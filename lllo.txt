@@ -41,4 +41,17 @@ def total_quantity(vendas, product_name):
 print(total_quantity(vendas, "compasso"))  # Should print 44
 
 
+Exercício 4: Descreva a ideia principal por trás de cada algoritmo de ordenação
 
+Aqui estão as descrições:
+
+Selection Sort
+A ideia principal por trás do selection sort é repetidamente selecionar o menor (ou maior) elemento da porção não ordenada da lista e trocá-lo com o primeiro elemento da porção não ordenada. Este processo é repetido até que toda a lista esteja ordenada.
+
+Insertion Sort
+A ideia principal por trás do insertion sort é iterar sobre a lista um elemento de cada vez, inserindo cada elemento em sua posição adequada na porção ordenada da lista. Isso é feito comparando cada elemento com os elementos na porção ordenada e shiftando-os como necessário para fazer espaço para o novo elemento.
+
+Bubble Sort
+A ideia principal por trás do bubble sort é repetidamente iterar sobre a lista, comparando elementos adjacentes e trocando-os se estiverem na ordem errada. Este processo é repetido até que não haja mais trocas necessárias, indicando que a lista está ordenada.
+
+Gostaria de saber se você gostaria que eu elaborasse sobre algum desses exercícios!
