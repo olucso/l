@@ -1,0 +1,44 @@
+vendas = [
+    ["6", "lapis de cor", "02", "36", "16.84"],
+    ["13", "caderno", "13", "26", "6.58"],
+    ["3", "compasso", "09", "32", "6.49"],
+    ["7", "giz de cera", "17", "39", "4.25"],
+    ["13", "caderno", "13", "56", "6.58"],
+    ["6", "lapis de cor", "05", "17", "16.84"],
+    ["4", "esquadro", "05", "57", "1.52"],
+    ["7", "giz de cera", "23", "13", "4.25"],
+    ["4", "esquadro", "25", "30", "1.52"],
+    ["3", "compasso", "14", "12", "6.49"]
+]
+
+
+
+
+
+
+def highest_revenue(vendas):
+    max_revenue = 0
+    best_item = None
+    for row in vendas:
+        revenue = int(row[3]) * float(row[4])
+        if revenue > max_revenue:
+            max_revenue = revenue
+            best_item = row[1]
+    print("Item with highest revenue:", best_item)
+
+highest_revenue(vendas)
+
+
+
+
+def total_quantity(vendas, product_name):
+    total = 0
+    for row in vendas:
+        if row[1] == product_name:
+            total += int(row[3])
+    return total
+
+print(total_quantity(vendas, "compasso"))  # Should print 44
+
+
+
