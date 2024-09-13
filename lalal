@@ -1,0 +1,35 @@
+Este texto corresponde aos exercícios 1, 2 e 3 da prova: "Uma empresa
+utiliza uma matriz de String para armazenar informações sobre vendas de
+produtos. Cada venda de produto representa uma linha da matriz e nas colunas armazenamos: código do produto, descrição do produto, dia da venda,
+quantidade e preço"
+0 1 2 3 4
+0 6 lapis de cor 02 36 16.84
+1 13 caderno 13 26 6.58
+2 3 compasso 09 32 6.49
+3 7 giz de cera 17 39 4.25
+4 13 caderno 13 56 6.58
+5 6 lapis de cor 05 17 16.84
+6 4 esquadro 05 57 1.52
+7 7 giz de cera 23 13 4.25
+8 4 esquadro 25 30 1.52
+9 3 compasso 14 12 6.49
+Figura 1: Matriz com as vendas dos produtos para o mês de setembro
+Na coluna 0 temos o código do produto, na 1 a descrição do produto, na
+2 o dia da venda, na 3 a quantidade vendida e na 4 o valor unitário da venda.
+1
+
+Declare uma matriz exatamente com as informações do enunciado
+da prova.
+
+Escreva um programa que, com base na matriz de vendas, encontra e imprime o item de venda com o maior faturamento. O faturamento
+de um item é dado pela multiplicação da coluna quantidade pela coluna
+valor unitário da matriz.
+
+Escreva uma função em Python que recebe o nome de um produto
+e a matriz de vendas e retorna a quantidade total de itens vendidos
+daquele produto. Por exemplo, se o produto for compasso, sua função
+dever retornar 44.
+
+Sobre os algoritmos de ordenção vistos em sala de aula, descreva
+a ideia principal utilizada em cada um deles: selection sort, insertion
+sort e bubble sort.
