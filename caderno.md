@@ -1,10 +1,6 @@
-### 16/03/2025
+# ContraInteligencia
 
-QueryParam -> passar o parâmetro na URL.
+### ProtonVPN → é segura porque é da Suíça, que é um país neutro. Porém, se apertar eles entregam.
 
-A anotação @RestController unifica as anotações @Controller + @ResponseBody. @Controller: indica que a classe retornará requisições HTTP; @ResponseBody: dados serializados em json e jogados na resposta da requisição.
-
-A anotação @RequestMapping definie um endpoint, tanto para um método ou para a classe toda.
-
-@PathVariable -> extrair valores diretamente da URI, mapeando segmentos dinâmicos do caminho (URL) para parâmetros de um método no Controller.
-
+## OPSEC
+### https://prism-break.org/pt → site para mostrar quais ferramentas de anonimização podem ser usadas em todos os tipos de plataformas e não coletar dados.
